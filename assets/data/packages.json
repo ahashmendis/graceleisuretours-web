@@ -1,0 +1,105 @@
+[
+  {
+    "id": "cultural-heritage",
+    "category": "culture",
+    "duration": "5–7 Days",
+    "image": "https://images.unsplash.com/photo-1586227740560-8cf2732c1531?auto=format&fit=crop&w=600&q=80",
+    "alt": "Cultural Heritage",
+    "icon": "fa-solid fa-landmark",
+    "categoryLabel": "Cultural Heritage",
+    "title": "Cultural &amp; Heritage Tour",
+    "description": "Immerse yourself in 2,500 years of Sri Lankan civilisation — from the legendary rock fortress of Sigiriya to the sacred sanctuaries of Kandy and the golden age ruins of Anuradhapura.",
+    "highlights": [
+      "Sigiriya Rock Fortress",
+      "Dambulla Cave Temple (UNESCO)",
+      "Temple of the Sacred Tooth, Kandy",
+      "Polonnaruwa Ancient City",
+      "Kelaniya Raja Maha Vihara"
+    ]
+  },
+  {
+    "id": "adventure",
+    "category": "adventure",
+    "duration": "4–6 Days",
+    "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=600&q=80",
+    "alt": "Adventure",
+    "icon": "fa-solid fa-mountain",
+    "categoryLabel": "Adventure",
+    "title": "Adventure Tour",
+    "description": "For the thrill-seeker — summit sacred peaks, trek through ancient rainforests and challenge yourself against Sri Lanka's spectacular highland terrain with expert adventure guides.",
+    "highlights": [
+      "Adam's Peak Sunrise Trek",
+      "Horton Plains &amp; World's End",
+      "Knuckles Mountain Range",
+      "Ella Rock Hike"
+    ]
+  },
+  {
+    "id": "soft-adventure",
+    "category": "soft",
+    "duration": "3–5 Days",
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=600&q=80",
+    "alt": "Soft Adventure",
+    "icon": "fa-solid fa-water",
+    "categoryLabel": "Soft Adventure",
+    "title": "Soft Adventure Tour",
+    "description": "Gentle thrills for families and groups — experience the excitement of white-water rafting, scenic river walks and tranquil nature in Sri Lanka's beautiful river valleys.",
+    "highlights": [
+      "Kitulgala White Water Rafting",
+      "Belihuloya River Activities",
+      "Village &amp; Nature Walks",
+      "Suitable for All Ages &amp; Fitness Levels"
+    ]
+  },
+  {
+    "id": "bird-watching",
+    "category": "birds",
+    "duration": "4–8 Days",
+    "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=600&q=80",
+    "alt": "Birds",
+    "icon": "fa-solid fa-dove",
+    "categoryLabel": "Bird Watching",
+    "title": "Bird Watching Tour",
+    "description": "Sri Lanka is home to 430+ bird species, including 33 endemics. Explore world-class birding hotspots across rainforests, national parks and wetlands with specialist ornithologist guides.",
+    "highlights": [
+      "Sinharaja Rainforest (Endemic Hotspot)",
+      "Bundala &amp; Kumana Bird Sanctuaries",
+      "Horton Plains Highland Birds",
+      "33+ Endemic Species Target List"
+    ]
+  },
+  {
+    "id": "wildlife-safari",
+    "category": "wildlife",
+    "duration": "3–5 Days",
+    "image": "https://images.unsplash.com/photo-1594149929911-78975a43d4f5?auto=format&fit=crop&w=600&q=80",
+    "alt": "Wildlife",
+    "icon": "fa-solid fa-paw",
+    "categoryLabel": "Wildlife Safari",
+    "title": "Wildlife Safari Tour",
+    "description": "Track leopards, spot wild elephants in their hundreds and encounter a breathtaking diversity of wildlife across Sri Lanka's top national parks with experienced naturalist guides.",
+    "highlights": [
+      "Yala — Leopards &amp; Elephants",
+      "Minneriya — The Elephant Gathering",
+      "Udawalawe — Elephant Orphanage",
+      "Private Safari Jeep &amp; Naturalist Guide"
+    ]
+  },
+  {
+    "id": "coastal-southern",
+    "category": "culture",
+    "duration": "5–7 Days",
+    "image": "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?auto=format&fit=crop&w=600&q=80",
+    "alt": "Coastal",
+    "icon": "fa-solid fa-umbrella-beach",
+    "categoryLabel": "Coastal &amp; Culture",
+    "title": "Coastal &amp; Southern Highlights",
+    "description": "Discover Sri Lanka's stunning southern coast — from the colonial grandeur of Galle Fort to whale watching at Mirissa and turtle conservation at Kosgoda.",
+    "highlights": [
+      "Galle Dutch Fort (UNESCO)",
+      "Mirissa Whale Watching",
+      "Kosgoda Turtle Hatchery",
+      "Bentota Beach &amp; River"
+    ]
+  }
+]

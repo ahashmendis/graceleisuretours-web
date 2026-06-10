@@ -1,0 +1,236 @@
+/* ============================================================
+   GRACE LEISURE TOURS — vehicles.css
+   Styles specific to vehicles.html only
+   ============================================================ */
+
+/* ── HIGHLIGHTS SECTION ──────────────────────────────────────── */
+.vehicles-highlights-section {
+  background: var(--bg);
+}
+
+.vehicles-highlights-flex {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+
+.vehicles-highlights-left {
+  flex: 1;
+  min-width: 240px;
+}
+
+.vehicles-feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.vehicles-feature-card {
+  flex: 1;
+  min-width: 140px;
+  background: white;
+  border-radius: var(--r-sm);
+  padding: 22px;
+  border: 1px solid var(--border);
+  text-align: center;
+  box-shadow: var(--shadow-xs);
+  transition: transform var(--t), box-shadow var(--t);
+}
+
+.vehicles-feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.vehicles-feature-emoji {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.vehicles-feature-title {
+  font-weight: 700;
+  color: var(--heading);
+  font-size: 0.9rem;
+}
+
+.vehicles-feature-sub {
+  font-size: 0.76rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+/* ── SECTION SUBHEADINGS ─────────────────────────────────────── */
+.vehicles-subhead {
+  margin-bottom: 40px;
+}
+
+.vehicles-subhead .h2 {
+  font-size: 2rem;
+}
+
+/* ── VEHICLE GRID ────────────────────────────────────────────── */
+.vehicles-grid-full {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 24px;
+}
+
+.veh-card {
+  border-radius: var(--r);
+  background: white;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  box-shadow: var(--shadow-xs);
+  transition: transform var(--t), box-shadow var(--t), border-color var(--t);
+}
+
+.veh-card:hover {
+  transform: translateY(-7px);
+  box-shadow: var(--shadow);
+  border-color: var(--blue-pale2);
+}
+
+.veh-card-img {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.veh-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.55s ease;
+}
+
+.veh-card:hover .veh-card-img img {
+  transform: scale(1.07);
+}
+
+.veh-card-body {
+  padding: 20px 20px 22px;
+}
+
+.veh-card-name {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--heading);
+  margin-bottom: 8px;
+}
+
+.veh-cap-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--blue);
+  background: var(--blue-pale);
+  padding: 4px 12px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.veh-card-desc {
+  font-size: 0.82rem;
+  color: var(--body);
+  line-height: 1.75;
+}
+
+/* ── AIR TRANSFERS ───────────────────────────────────────────── */
+.vehicles-air-section {
+  background: var(--white);
+}
+
+.vehicles-air-lead {
+  max-width: 500px;
+  margin: 14px auto 0;
+}
+
+.air-banner {
+  background: linear-gradient(135deg, #0A1628, #0F43AA, #1558D6);
+  border-radius: var(--r-lg);
+  padding: 52px 56px;
+  margin-top: 44px;
+}
+
+.air-banner-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.air-item {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+}
+
+.air-icon {
+  font-size: 2.2rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 4px;
+}
+
+.air-item h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.air-item p {
+  font-size: 0.87rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.8;
+}
+
+/* ── CTA SECTION ─────────────────────────────────────────────── */
+.vehicles-cta-section {
+  background: var(--blue);
+  padding: 72px 32px;
+  text-align: center;
+}
+
+.vehicles-cta-inner {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.vehicles-cta-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(1.9rem, 3.5vw, 2.7rem);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 14px;
+}
+
+.vehicles-cta-text {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 1rem;
+  margin-bottom: 32px;
+}
+
+/* ── RESPONSIVE ──────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .air-banner-inner { grid-template-columns: 1fr; gap: 28px; }
+  .air-banner       { padding: 40px 32px; }
+}
+
+@media (max-width: 768px) {
+  .vehicles-highlights-flex { flex-direction: column; gap: 32px; }
+  .vehicles-grid-full       { grid-template-columns: 1fr 1fr; }
+  .vehicles-cta-section     { padding: 52px 18px; }
+}
+
+@media (max-width: 480px) {
+  .vehicles-grid-full { grid-template-columns: 1fr; }
+  .vehicles-feature-cards { gap: 12px; }
+}

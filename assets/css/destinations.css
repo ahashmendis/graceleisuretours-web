@@ -1,0 +1,265 @@
+/* ============================================================
+   GRACE LEISURE TOURS — destinations.css
+   Styles specific to destinations.html only
+   ============================================================ */
+
+/* ── SECTION HEADER ──────────────────────────────────────────── */
+.dest-section-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.dest-section-lead {
+  max-width: 440px;
+  margin-top: 10px;
+}
+
+/* ── FILTER BAR ──────────────────────────────────────────────── */
+.dest-filter-bar {
+  margin-bottom: 8px;
+}
+
+.dest-tabs-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dest-tab {
+  padding: 9px 22px;
+  border-radius: 50px;
+  border: 2px solid var(--border);
+  background: transparent;
+  color: var(--body);
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--t);
+}
+
+.dest-tab:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+  background: var(--blue-pale);
+}
+
+.dest-tab.active {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
+  box-shadow: 0 4px 14px rgba(21, 88, 214, 0.3);
+}
+
+/* ── DESTINATIONS GRID ───────────────────────────────────────── */
+.dest-grid-full {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 12px;
+}
+
+/* ── DESTINATION CARD ────────────────────────────────────────── */
+.dest-card-full {
+  background: white;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  box-shadow: var(--shadow-xs);
+  transition: transform var(--t), box-shadow var(--t), border-color var(--t);
+  display: flex;
+  flex-direction: column;
+}
+
+.dest-card-full:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow);
+  border-color: var(--blue-pale2);
+}
+
+.dest-card-img-wrap {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.dest-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.dest-card-full:hover .dest-card-img-wrap img {
+  transform: scale(1.06);
+}
+
+.dest-card-img-cat {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  color: var(--blue);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 50px;
+}
+
+.dest-card-body-full {
+  padding: 24px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.dest-card-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--heading);
+  margin-bottom: 10px;
+}
+
+.dest-card-text {
+  font-size: 0.86rem;
+  color: var(--body);
+  line-height: 1.8;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+.dest-card-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.dest-fact {
+  font-size: 0.75rem;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dest-fact i {
+  color: var(--blue);
+  font-size: 0.68rem;
+}
+
+.dest-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--blue);
+  transition: gap var(--t), color var(--t);
+  margin-top: auto;
+}
+
+.dest-card-link:hover {
+  gap: 12px;
+}
+
+/* ── SPOTLIGHT SECTION ───────────────────────────────────────── */
+.dest-spotlight-section {
+  background: var(--bg);
+}
+
+.dest-spotlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.dest-spotlight-img {
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  aspect-ratio: 4 / 3;
+}
+
+.dest-spotlight-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+
+.dest-spotlight-img:hover img {
+  transform: scale(1.04);
+}
+
+.spotlight-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--blue-pale);
+  color: var(--blue);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.spotlight-body-text {
+  font-size: 0.9rem;
+  color: var(--body);
+  line-height: 1.85;
+  margin-top: 16px;
+}
+
+.spotlight-actions {
+  margin-top: 28px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* ── RESPONSIVE ──────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .dest-grid-full {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  .dest-spotlight {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dest-grid-full {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .dest-section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .dest-grid-full {
+    grid-template-columns: 1fr;
+  }
+
+  .dest-tab {
+    padding: 8px 16px;
+    font-size: 0.78rem;
+  }
+}

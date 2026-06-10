@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Discover Sri Lanka's most iconic destinations — from Sigiriya and Yala to Galle and the tea highlands. Grace Leisure Tours.">
+  <meta property="og:url" content="https://www.graceleisuretours.com/destinations">
+  <link rel="canonical" href="https://www.graceleisuretours.com/destinations">
+  <title>Destinations | Grace Leisure Tours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@700;800&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/destinations.css">
+</head>
+
+<body>
+  <div id="loader">
+    <div class="loader-logo-text">Grace <span>Leisure</span></div>
+    <div class="loader-sub">Destinations</div>
+    <div class="loader-track">
+      <div class="loader-progress"></div>
+    </div>
+  </div>
+
+  <nav id="navbar">
+    <div class="nav-wrap">
+      <a href="index.html" class="nav-logo">
+        <img
+          src="https://static.wixstatic.com/media/929fff_b667435f4db34658a5b9c9b282dbb0d8~mv2.png/v1/fill/w_630,h_112,al_c,lg_1,q_85,enc_avif,quality_auto/Untitled-1-Photoroom.png"
+          alt="Grace Leisure Tours" class="nav-logo-img">
+      </a>
+      <div class="nav-links">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="destinations.html" data-page="destinations.html">Destinations</a>
+        <a href="packages.html" data-page="packages.html">Packages</a>
+        <a href="vehicles.html" data-page="vehicles.html">Vehicles</a>
+        <a href="reviews.html" data-page="reviews.html">Reviews</a>
+        <a href="contact.html" class="nav-cta" data-page="contact.html">Contact Us</a>
+      </div>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="packages.html">Packages</a>
+    <a href="vehicles.html">Vehicles</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="contact.html" class="mob-cta">Contact Us</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-blur-1"></div>
+    <div class="page-hero-blur-2"></div>
+    <div class="page-hero-img"><img
+        src="https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=900&q=80" alt="Sri Lanka">
+    </div>
+    <div class="page-hero-inner">
+      <div class="page-hero-tag"><i class="fa-solid fa-map-location-dot"></i> Explore Sri Lanka</div>
+      <h1>Discover Incredible<br><em>Destinations</em></h1>
+      <p>From ancient rock citadels and sacred temples to golden beaches, misty highlands and wild national parks —
+        every corner of Sri Lanka tells a story.</p>
+      <div class="page-hero-breadcrumb"><a href="index.html">Home</a><i
+          class="fa-solid fa-chevron-right"></i><span>Destinations</span></div>
+    </div>
+  </div>
+
+  <!-- DESTINATIONS GRID -->
+  <section class="section-py" style="background:var(--white);">
+    <div class="container">
+      <div class="dest-section-header reveal">
+        <div>
+          <div class="tag">All Destinations</div>
+          <h2 class="h2">Where Will You <span class="accent">Explore?</span></h2>
+          <p class="lead dest-section-lead">Filter by interest to find your perfect Sri Lanka experience.</p>
+        </div>
+      </div>
+
+      <!-- FILTER TABS -->
+      <div class="dest-filter-bar">
+        <div class="dest-tabs-row" id="destTabs">
+          <button class="dest-tab active" data-filter="all">All</button>
+          <button class="dest-tab" data-filter="culture">Culture &amp; Heritage</button>
+          <button class="dest-tab" data-filter="wildlife">Wildlife &amp; Parks</button>
+          <button class="dest-tab" data-filter="coastal">Coastal</button>
+          <button class="dest-tab" data-filter="nature">Nature &amp; Hills</button>
+          <button class="dest-tab" data-filter="city">Cities</button>
+        </div>
+      </div>
+
+      <!-- Cards injected by destinations.js -->
+      <div class="dest-grid-full" id="destGrid"></div>
+    </div>
+  </section>
+
+  <!-- SPOTLIGHT: SIGIRIYA -->
+  <section class="section-py dest-spotlight-section">
+    <div class="container">
+      <div class="dest-spotlight">
+        <div class="reveal from-left">
+          <div class="dest-spotlight-img"><img src="assets/images/destinations/Sigiriya-Huge.webp" alt="Sigiriya"></div>
+        </div>
+        <div class="reveal from-right">
+          <span class="spotlight-tag">Featured Destination</span>
+          <h2 class="h2">Sigiriya: The <span class="accent">8th Wonder</span></h2>
+          <span class="divider-line"></span>
+          <p class="lead">Rising dramatically from the jungle floor, the ancient rock fortress of Sigiriya is Sri
+            Lanka's most iconic landmark — a truly awe-inspiring feat of ancient engineering and artistry.</p>
+          <p class="spotlight-body-text">The rock's vertical walls were adorned with exquisite frescoes, and its summit
+            once held a sophisticated palace complex with water gardens below. Today it offers breathtaking panoramic
+            views across hundreds of miles of jungle.</p>
+          <div class="spotlight-actions">
+            <a href="contact.html" class="btn btn-primary"><i class="fa-solid fa-calendar-plus"></i> Book This Tour</a>
+            <a href="packages.html" class="btn btn-outline">View Packages <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html"><img
+            src="https://static.wixstatic.com/media/929fff_b667435f4db34658a5b9c9b282dbb0d8~mv2.png/v1/fill/w_630,h_112,al_c,lg_1,q_85,enc_avif,quality_auto/Untitled-1-Photoroom.png"
+            alt="Grace Leisure Tours" class="footer-logo-img"></a>
+        <p class="footer-brand-desc">Where every journey becomes a story. Sri Lanka's premier tour operator since 2015.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com" class="footer-soc" target="_blank"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com" class="footer-soc" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/94763775547" class="footer-soc" target="_blank"><i
+              class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+          <li><a href="destinations.html"><i class="fa-solid fa-chevron-right"></i> Destinations</a></li>
+          <li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Packages</a></li>
+          <li><a href="vehicles.html"><i class="fa-solid fa-chevron-right"></i> Vehicles</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Tours</h4>
+        <ul>
+          <li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Cultural Heritage</a></li>
+          <li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Adventure Tours</a></li>
+          <li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Soft Adventure</a></li>
+          <li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Bird Watching</a></li>
+          <li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Wildlife Safaris</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <div class="footer-contact-item"><i class="fa-solid fa-phone"></i>
+          <div><a href="tel:+94763775547">+94 763 775 547</a><br><a href="tel:+94777607129">+94 777 607 129</a></div>
+        </div>
+        <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a
+            href="mailto:info@graceleisuretours.com">info@graceleisuretours.com</a></div>
+        <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i>Boralesgamuwa, Sri Lanka</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <p>© 2025 <span>Grace Leisure International (PVT) Ltd</span>. All rights reserved.</p>
+        <div class="footer-bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div>
+      </div>
+    </div>
+  </footer>
+  <a class="wa-float" href="https://wa.me/94763775547" title="WhatsApp" target="_blank"><i
+      class="fa-brands fa-whatsapp"></i></a>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/destinations.js"></script>
+</body>
+
+</html>

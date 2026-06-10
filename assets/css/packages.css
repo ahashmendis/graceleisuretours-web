@@ -1,0 +1,242 @@
+/* ============================================================
+   GRACE LEISURE TOURS — packages.css
+   Styles specific to packages.html only
+   ============================================================ */
+
+/* ── PACKAGES GRID ───────────────────────────────────────────── */
+.packages-section {
+  background: var(--white);
+}
+
+.packages-section-header {
+  margin-bottom: 44px;
+}
+
+.packages-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.pkg-tab {
+  padding: 9px 22px;
+  border-radius: 50px;
+  border: 2px solid var(--border);
+  background: transparent;
+  color: var(--body);
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--t);
+}
+
+.pkg-tab:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+  background: var(--blue-pale);
+}
+
+.pkg-tab.active {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
+  box-shadow: 0 4px 14px rgba(21, 88, 214, 0.3);
+}
+
+.packages-full-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 28px;
+  margin-top: 36px;
+}
+
+/* ── PACKAGE CARD ────────────────────────────────────────────── */
+.pkg-card {
+  background: white;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  box-shadow: var(--shadow-xs);
+  transition: transform var(--t), box-shadow var(--t), border-color var(--t);
+  display: flex;
+  flex-direction: column;
+}
+
+.pkg-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow);
+  border-color: var(--blue-pale2);
+}
+
+.pkg-img {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.pkg-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.pkg-card:hover .pkg-img img {
+  transform: scale(1.06);
+}
+
+.pkg-img-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  color: var(--heading);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+}
+
+.pkg-body {
+  padding: 26px 26px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.pkg-category {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+.pkg-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--heading);
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.pkg-desc {
+  font-size: 0.87rem;
+  color: var(--body);
+  line-height: 1.85;
+  margin-bottom: 18px;
+}
+
+.pkg-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.pkg-check {
+  font-size: 0.82rem;
+  color: var(--body);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.pkg-check i {
+  color: var(--blue);
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.pkg-footer {
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+  margin-top: auto;
+}
+
+.pkg-enquire-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--blue);
+  color: white;
+  padding: 11px 24px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  transition: background var(--t), transform var(--t), box-shadow var(--t);
+  box-shadow: 0 4px 14px rgba(21, 88, 214, 0.28);
+}
+
+.pkg-enquire-btn:hover {
+  background: var(--blue-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(21, 88, 214, 0.38);
+}
+
+/* ── CUSTOM PACKAGE CTA ──────────────────────────────────────── */
+.pkg-cta-section {
+  background: var(--bg);
+  padding: 80px 0;
+}
+
+.pkg-cta-box {
+  background: linear-gradient(135deg, #0A1628, #0F43AA, #1558D6);
+  border-radius: var(--r-lg);
+  padding: 64px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.pkg-cta-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 14px;
+}
+
+.pkg-cta-text {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 1.02rem;
+  max-width: 560px;
+  margin: 0 auto 32px;
+  line-height: 1.8;
+}
+
+.pkg-cta-btn {
+  margin: 0 auto;
+}
+
+/* ── RESPONSIVE ──────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .packages-full-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pkg-cta-box {
+    padding: 40px 24px;
+  }
+
+  .pkg-cta-section {
+    padding: 52px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .pkg-tab {
+    padding: 8px 16px;
+    font-size: 0.78rem;
+  }
+}

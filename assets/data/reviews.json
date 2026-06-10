@@ -1,0 +1,83 @@
+[
+  {
+    "initial": "A",
+    "avatarClass": "av-blue",
+    "stars": 5,
+    "text": "Grace Leisure completely exceeded our expectations. Every detail was perfectly planned and our guide's knowledge was extraordinary. Sigiriya at sunrise was simply breathtaking — I'll cherish this memory forever.",
+    "name": "Ayman Al-Rashid",
+    "location": "United Arab Emirates",
+    "tour": "Cultural Heritage Tour"
+  },
+  {
+    "initial": "S",
+    "avatarClass": "av-teal",
+    "stars": 5,
+    "text": "From landing to departure, everything was seamless. The wildlife safari at Yala was truly something I'll never forget. We saw four leopards in a single morning! Outstanding service and professionalism throughout.",
+    "name": "Shimon Ben-David",
+    "location": "Israel",
+    "tour": "Wildlife Safari Tour"
+  },
+  {
+    "initial": "S",
+    "avatarClass": "av-purple",
+    "stars": 5,
+    "text": "Our Sinharaja bird watching tour was magical. Our guide spotted species we'd only ever seen in field guides! World-class birding combined with the warmest Sri Lankan hospitality. Highly, highly recommended!",
+    "name": "Sara Delacroix",
+    "location": "France",
+    "tour": "Bird Watching Tour"
+  },
+  {
+    "initial": "M",
+    "avatarClass": "av-emerald",
+    "stars": 5,
+    "text": "I've travelled to over 40 countries and Grace Leisure provided one of the best-organised tours I have ever experienced. The cultural tour through Kandy and Polonnaruwa was deeply moving. The team is truly exceptional.",
+    "name": "Marcus Weber",
+    "location": "Germany",
+    "tour": "Cultural Heritage Tour"
+  },
+  {
+    "initial": "E",
+    "avatarClass": "av-orange",
+    "stars": 5,
+    "text": "The highlight was seeing hundreds of elephants gather at Minneriya at dusk — absolutely life-changing. Grace Leisure arranged everything flawlessly. Our guide was knowledgeable, funny and incredibly attentive.",
+    "name": "Emma &amp; James Tillotson",
+    "location": "United Kingdom",
+    "tour": "Wildlife Safari Tour"
+  },
+  {
+    "initial": "P",
+    "avatarClass": "av-rose",
+    "stars": 5,
+    "text": "We had a family of 6 including two small children and Grace Leisure made every activity perfectly age-appropriate. The Kosgoda turtle release was pure magic for the kids. A trip all 6 of us will remember forever.",
+    "name": "Patricia Nguyen",
+    "location": "Australia",
+    "tour": "Coastal &amp; Southern Tour"
+  },
+  {
+    "initial": "H",
+    "avatarClass": "av-amber",
+    "stars": 5,
+    "text": "The tea country around Nuwara Eliya was even more beautiful than I imagined. Our guide arranged a private tea factory visit which was the highlight of the trip. Absolutely perfect planning from start to finish.",
+    "name": "Hiroshi Yamamoto",
+    "location": "Japan",
+    "tour": "Cultural &amp; Nature Tour"
+  },
+  {
+    "initial": "L",
+    "avatarClass": "av-indigo",
+    "stars": 5,
+    "text": "Ranmal and his team went above and beyond at every step. When our plans changed due to weather, they reorganised everything instantly with no fuss. This is what top-tier service looks like. Will absolutely return.",
+    "name": "Lucia Martínez",
+    "location": "Spain",
+    "tour": "Adventure Tour"
+  },
+  {
+    "initial": "R",
+    "avatarClass": "av-cyan",
+    "stars": 5,
+    "text": "Our honeymoon in Sri Lanka was everything we dreamed of and more. Grace Leisure arranged the most romantic sunrise at Sigiriya, a whale-watching cruise from Mirissa and a candlelit beach dinner in Bentota. Simply perfect.",
+    "name": "Ryan &amp; Sophie O'Brien",
+    "location": "Ireland",
+    "tour": "Coastal &amp; Southern Tour"
+  }
+]

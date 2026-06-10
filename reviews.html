@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Real reviews from Grace Leisure Tours travellers worldwide. See what international guests say about their Sri Lanka tour experience.">
+  <meta property="og:url" content="https://www.graceleisuretours.com/reviews">
+  <meta property="og:title" content="Traveller Reviews | Grace Leisure Tours">
+  <meta property="og:description" content="Hundreds of verified reviews from international travellers who explored Sri Lanka with Grace Leisure Tours.">
+  <link rel="canonical" href="https://www.graceleisuretours.com/reviews">
+  <title>Traveller Reviews | Grace Leisure Tours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/reviews.css">
+</head>
+<body>
+<div id="loader"><div class="loader-logo-text">Grace <span>Leisure</span></div><div class="loader-sub">Reviews</div><div class="loader-track"><div class="loader-progress"></div></div></div>
+
+<nav id="navbar">
+  <div class="nav-wrap">
+    <a href="index.html" class="nav-logo">
+      <img src="https://static.wixstatic.com/media/929fff_b667435f4db34658a5b9c9b282dbb0d8~mv2.png/v1/fill/w_630,h_112,al_c,lg_1,q_85,enc_avif,quality_auto/Untitled-1-Photoroom.png" alt="Grace Leisure Tours" class="nav-logo-img">
+    </a>
+    <div class="nav-links">
+      <a href="index.html" data-page="index.html">Home</a>
+      <a href="about.html" data-page="about.html">About</a>
+      <a href="destinations.html" data-page="destinations.html">Destinations</a>
+      <a href="packages.html" data-page="packages.html">Packages</a>
+      <a href="vehicles.html" data-page="vehicles.html">Vehicles</a>
+      <a href="reviews.html" data-page="reviews.html">Reviews</a>
+      <a href="contact.html" class="nav-cta" data-page="contact.html">Contact Us</a>
+    </div>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="destinations.html">Destinations</a>
+  <a href="packages.html">Packages</a>
+  <a href="vehicles.html">Vehicles</a>
+  <a href="reviews.html">Reviews</a>
+  <a href="contact.html" class="mob-cta">Contact Us</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-blur-1"></div><div class="page-hero-blur-2"></div>
+  <div class="page-hero-img"><img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=900&q=80" alt="Traveller Reviews"></div>
+  <div class="page-hero-inner">
+    <div class="page-hero-tag"><i class="fa-solid fa-star"></i> Real Experiences</div>
+    <h1>Real Reviews<br><em>Verified Travellers</em></h1>
+    <p>Hundreds of guests from around the world have trusted Grace Leisure with their Sri Lanka journeys. Here's what they had to say.</p>
+    <div class="page-hero-breadcrumb"><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i><span>Reviews</span></div>
+  </div>
+</div>
+
+<!-- STATS BAR -->
+<div class="reviews-stats-bar">
+  <div class="reviews-stats-inner">
+    <div class="reviews-stat reveal d1"><div class="reviews-stat-num">5.0</div><div class="reviews-stat-lbl"><i class="fa-solid fa-star" style="color:#F59E0B;"></i> Average Rating</div></div>
+    <div class="reviews-stat reveal d2"><div class="reviews-stat-num">500+</div><div class="reviews-stat-lbl">Happy Travellers</div></div>
+    <div class="reviews-stat reveal d3"><div class="reviews-stat-num">30+</div><div class="reviews-stat-lbl">Countries Represented</div></div>
+    <div class="reviews-stat reveal d4"><div class="reviews-stat-num">100%</div><div class="reviews-stat-lbl">Would Recommend</div></div>
+  </div>
+</div>
+
+<!-- ALL TEXT REVIEWS -->
+<section class="section-py reviews-section">
+  <div class="container">
+    <div class="text-center reveal reviews-section-header">
+      <div class="reviews-hero-tag"><i class="fa-solid fa-comment-dots"></i> Written by Real Travellers</div>
+      <h2 class="h2">What Our Guests <span class="accent">Say</span></h2>
+      <p class="lead">Every review below is from a real person who explored Sri Lanka with Grace Leisure Tours.</p>
+    </div>
+    <!-- Review cards injected by reviews.js -->
+    <div class="reviews-full-grid" id="reviewsGrid"></div>
+  </div>
+</section>
+
+<!-- PHOTO & VIDEO MEMORIES -->
+<section class="section-py gallery-section">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="reviews-hero-tag"><i class="fa-solid fa-camera"></i> Photo &amp; Video Memories</div>
+      <h2 class="h2">Travel <span class="accent">Moments</span></h2>
+      <p class="lead">Real photos and videos from our guests' Sri Lanka adventures — captured in the moment, shared with love.</p>
+    </div>
+    <!--
+    ════════════════════════════════════════════════════════
+    HOW TO ADD A PHOTO — edit assets/data/gallery.json:
+      { "type": "photo", "src": "YOUR_IMAGE_URL", "alt": "Description" }
+
+    HOW TO ADD A YOUTUBE VIDEO:
+      { "type": "video-youtube", "src": "https://www.youtube.com/embed/VIDEO_ID" }
+
+    HOW TO ADD A LOCAL VIDEO:
+      { "type": "video-local", "src": "assets/videos/your-video.mp4" }
+    ════════════════════════════════════════════════════════
+    -->
+    <!-- Media items injected by reviews.js -->
+    <div class="media-gallery" id="mediaGallery"></div>
+  </div>
+</section>
+
+<!-- WRITE YOUR OWN REVIEW CTA + PLAN -->
+<section class="reviews-cta-section">
+  <div class="container">
+    <div class="reviews-cta-grid">
+
+      <!-- Been with us? Leave a review -->
+      <div class="reviews-cta-white reveal">
+        <div class="reviews-cta-icon reviews-cta-icon-blue">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+        <h3 class="reviews-cta-title">Travelled With Us?</h3>
+        <p class="reviews-cta-text">We'd love to hear about your experience! Your review helps other travellers discover Sri Lanka with confidence.</p>
+        <a href="https://www.facebook.com" target="_blank" class="btn btn-primary" style="margin:0 auto;"><i class="fa-brands fa-facebook-f"></i> Leave a Review on Facebook</a>
+        <span class="reviews-cta-gap"></span>
+        <a href="https://wa.me/94763775547?text=Hi!%20I'd%20like%20to%20share%20my%20travel%20experience%20with%20Grace%20Leisure%20Tours." target="_blank" class="btn btn-outline" style="margin:0 auto;"><i class="fa-brands fa-whatsapp"></i> Share via WhatsApp</a>
+      </div>
+
+      <!-- Plan your trip -->
+      <div class="reviews-cta-dark reveal d1">
+        <div class="reviews-cta-dark-overlay"></div>
+        <div class="reviews-cta-dark-inner">
+          <div class="reviews-cta-icon reviews-cta-icon-white">
+            <i class="fa-solid fa-plane-departure"></i>
+          </div>
+          <h3 class="reviews-cta-dark-title">Ready to Join Them?</h3>
+          <p class="reviews-cta-dark-text">Join hundreds of happy travellers from around the world. Let us design your perfect Sri Lanka journey today.</p>
+          <a href="contact.html" class="btn btn-white" style="margin:0 auto;"><i class="fa-solid fa-paper-plane"></i> Plan My Sri Lanka Trip</a>
+          <span class="reviews-cta-gap"></span>
+          <a href="packages.html" class="btn-glass">Browse Packages <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="index.html"><img src="https://static.wixstatic.com/media/929fff_b667435f4db34658a5b9c9b282dbb0d8~mv2.png/v1/fill/w_630,h_112,al_c,lg_1,q_85,enc_avif,quality_auto/Untitled-1-Photoroom.png" alt="Grace Leisure Tours" class="footer-logo-img"></a>
+      <p class="footer-brand-desc">Where every journey becomes a story. Sri Lanka's premier tour operator since 2015.</p>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com" class="footer-soc" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" class="footer-soc" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/94763775547" class="footer-soc" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li><li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li><li><a href="destinations.html"><i class="fa-solid fa-chevron-right"></i> Destinations</a></li><li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Packages</a></li><li><a href="reviews.html"><i class="fa-solid fa-chevron-right"></i> Reviews</a></li><li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li></ul></div>
+    <div class="footer-col"><h4>Our Tours</h4><ul><li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Cultural Heritage</a></li><li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Adventure Tours</a></li><li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Soft Adventure</a></li><li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Bird Watching</a></li><li><a href="packages.html"><i class="fa-solid fa-chevron-right"></i> Wildlife Safaris</a></li></ul></div>
+    <div class="footer-col"><h4>Contact Us</h4><div class="footer-contact-item"><i class="fa-solid fa-phone"></i><div><a href="tel:+94763775547">+94 763 775 547</a><br><a href="tel:+94777607129">+94 777 607 129</a></div></div><div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><a href="mailto:info@graceleisuretours.com">info@graceleisuretours.com</a></div><div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i>Boralesgamuwa, Sri Lanka</div></div>
+  </div>
+  <div class="footer-bottom"><div class="footer-bottom-inner"><p>© 2025 <span>Grace Leisure International (PVT) Ltd</span>. All rights reserved.</p><div class="footer-bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div></div></div>
+</footer>
+<a class="wa-float" href="https://wa.me/94763775547" title="WhatsApp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/reviews.js"></script>
+</body></html>

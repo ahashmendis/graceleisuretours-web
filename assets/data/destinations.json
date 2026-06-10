@@ -1,0 +1,362 @@
+[
+  {
+    "id": "sigiriya",
+    "category": "culture",
+    "image": "assets/images/destinations/sigiriya.webp",
+    "alt": "Sigiriya",
+    "categoryLabel": "Culture",
+    "title": "Sigiriya Rock Fortress",
+    "description": "An ancient rock fortress and palace rising 200m above jungle — a UNESCO World Heritage Site from the 5th century and Sri Lanka's most iconic landmark.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Central Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day" },
+      { "icon": "fa-solid fa-star", "text": "UNESCO" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "dambulla",
+    "category": "culture",
+    "image": "assets/images/destinations/dambulla-cave-temple.webp",
+    "alt": "Dambulla",
+    "categoryLabel": "Culture",
+    "title": "Dambulla Cave Temple",
+    "description": "A UNESCO-listed cave monastery complex housing over 150 Buddha statues and ancient paintings spanning 2,100 years of history.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Central Province" },
+      { "icon": "fa-solid fa-clock", "text": "Half Day" },
+      { "icon": "fa-solid fa-star", "text": "UNESCO" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "kandy-temple",
+    "category": "culture",
+    "image": "assets/images/destinations/temple-of-the-tooth.webp",
+    "alt": "Kandy Temple",
+    "categoryLabel": "Culture",
+    "title": "Temple of the Tooth, Kandy",
+    "description": "Sri Lanka's most venerated Buddhist shrine, housing the sacred tooth relic of the Buddha. A UNESCO World Heritage Site at the heart of the cultural capital.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Kandy" },
+      { "icon": "fa-solid fa-clock", "text": "Half Day" },
+      { "icon": "fa-solid fa-star", "text": "UNESCO" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "kelaniya",
+    "category": "culture",
+    "image": "assets/images/destinations/kelaniya-raja-maha-viharaya.webp",
+    "alt": "Kelaniya",
+    "categoryLabel": "Culture",
+    "title": "Kelaniya Raja Maha Vihara",
+    "description": "One of Sri Lanka's most sacred Buddhist temples, renowned for its exquisite murals and carvings, located just outside Colombo.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Kelaniya" },
+      { "icon": "fa-solid fa-clock", "text": "Half Day" },
+      { "icon": "fa-solid fa-camera", "text": "Photography" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "anuradhapura",
+    "category": "culture",
+    "image": "assets/images/destinations/anuradhapuraya.webp",
+    "alt": "Anuradhapura",
+    "categoryLabel": "Culture",
+    "title": "Anuradhapura",
+    "description": "Sri Lanka's first ancient capital, a UNESCO site filled with stupas, palaces and sacred bodhi trees dating back over 2,300 years.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "North-Central Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day" },
+      { "icon": "fa-solid fa-star", "text": "UNESCO" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "polonnaruwa",
+    "category": "culture",
+    "image": "assets/images/destinations/polonnaruwa.webp",
+    "alt": "Polonnaruwa",
+    "categoryLabel": "Culture",
+    "title": "Polonnaruwa",
+    "description": "Sri Lanka's medieval capital, home to remarkably well-preserved ruins including vast irrigation reservoirs, palaces and the famous Gal Vihara rock carvings.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "North-Central Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day" },
+      { "icon": "fa-solid fa-star", "text": "UNESCO" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "yala",
+    "category": "wildlife",
+    "image": "assets/images/destinations/yala-national-park.webp",
+    "alt": "Yala",
+    "categoryLabel": "Wildlife",
+    "title": "Yala National Park",
+    "description": "Sri Lanka's most famous national park, home to the world's highest density of wild leopards, plus elephants, sloth bears, crocodiles and 200+ bird species.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Southern Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day Safari" },
+      { "icon": "fa-solid fa-paw", "text": "Leopards" }
+    ],
+    "linkText": "Plan a Safari"
+  },
+  {
+    "id": "minneriya",
+    "category": "wildlife",
+    "image": "assets/images/destinations/minneriya-national-park.webp",
+    "alt": "Minneriya",
+    "categoryLabel": "Wildlife",
+    "title": "Minneriya National Park",
+    "description": "Famous for \"The Gathering\" — one of the world's great wildlife spectacles where hundreds of wild elephants congregate at the ancient reservoir each year.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "North-Central Province" },
+      { "icon": "fa-solid fa-clock", "text": "Half / Full Day" },
+      { "icon": "fa-solid fa-star", "text": "Elephant Gathering" }
+    ],
+    "linkText": "Plan a Safari"
+  },
+  {
+    "id": "udawalawe",
+    "category": "wildlife",
+    "image": "assets/images/destinations/udawalawe-national-park.webp",
+    "alt": "Udawalawe",
+    "categoryLabel": "Wildlife",
+    "title": "Udawalawe National Park",
+    "description": "Guaranteed elephant sightings in their natural habitat. Also home to the famous Elephant Transit Home where orphaned calves are raised and released back into the wild.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Southern Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day" },
+      { "icon": "fa-solid fa-leaf", "text": "Eco Tourism" }
+    ],
+    "linkText": "Plan a Safari"
+  },
+  {
+    "id": "wilpattu",
+    "category": "wildlife",
+    "image": "assets/images/destinations/wilpattu-national-park.webp",
+    "alt": "Wilpattu",
+    "categoryLabel": "Wildlife",
+    "title": "Wilpattu National Park",
+    "description": "Sri Lanka's largest national park, famous for its unique natural lakes (willus), leopards, sloth bears and exceptional biodiversity across a wild, remote landscape.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "North Western Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day Safari" },
+      { "icon": "fa-solid fa-paw", "text": "Leopards" }
+    ],
+    "linkText": "Plan a Safari"
+  },
+  {
+    "id": "sinharaja",
+    "category": "wildlife",
+    "image": "assets/images/destinations/sinharaja-rainforest.webp",
+    "alt": "Sinharaja",
+    "categoryLabel": "Wildlife",
+    "title": "Sinharaja Rainforest",
+    "description": "Sri Lanka's last viable area of primary tropical rainforest — a UNESCO World Heritage Site and the premier birding hotspot for Sri Lanka's 33+ endemic bird species.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Sabaragamuwa Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day Trek" },
+      { "icon": "fa-solid fa-star", "text": "UNESCO" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "kosgoda",
+    "category": "wildlife",
+    "image": "assets/images/destinations/kosgoda-turtle-hatchery.webp",
+    "alt": "Kosgoda",
+    "categoryLabel": "Wildlife",
+    "title": "Kosgoda Turtle Hatchery",
+    "description": "Watch baby sea turtles hatch and be released into the ocean at this beloved conservation project protecting five species of endangered marine turtles.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Kosgoda, West Coast" },
+      { "icon": "fa-solid fa-clock", "text": "Half Day" },
+      { "icon": "fa-solid fa-leaf", "text": "Conservation" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "galle",
+    "category": "coastal",
+    "image": "assets/images/destinations/galle.webp",
+    "alt": "Galle Fort",
+    "categoryLabel": "Coastal",
+    "title": "Galle Dutch Fort",
+    "description": "A UNESCO-listed 17th-century Dutch colonial fort on Sri Lanka's southern coast, with charming boutique hotels, galleries and cafes within its ancient ramparts.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Galle, South" },
+      { "icon": "fa-solid fa-clock", "text": "Half Day" },
+      { "icon": "fa-solid fa-star", "text": "UNESCO" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "mirissa",
+    "category": "coastal",
+    "image": "assets/images/destinations/mirissa.webp",
+    "alt": "Mirissa",
+    "categoryLabel": "Coastal",
+    "title": "Mirissa",
+    "description": "One of the world's best whale watching spots — encounter blue whales and spinner dolphins just offshore from a beautiful crescent beach.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Southern Coast" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day" },
+      { "icon": "fa-solid fa-fish", "text": "Whale Watching" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "bentota",
+    "category": "coastal",
+    "image": "assets/images/destinations/bentota.webp",
+    "alt": "Bentota",
+    "categoryLabel": "Coastal",
+    "title": "Bentota",
+    "description": "Sri Lanka's resort capital — golden sandy beaches, water sports, river safaris and luxurious seaside hotels on the tranquil western coast.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Western Coast" },
+      { "icon": "fa-solid fa-clock", "text": "Day Trip / Stay" },
+      { "icon": "fa-solid fa-umbrella-beach", "text": "Beach" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "hikkaduwa",
+    "category": "coastal",
+    "image": "assets/images/destinations/hikkaduwa.webp",
+    "alt": "Hikkaduwa",
+    "categoryLabel": "Coastal",
+    "title": "Hikkaduwa",
+    "description": "Famous for its vibrant coral reefs and glass-bottom boat rides. A lively beach town with superb snorkelling, surfing and a relaxed atmosphere.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Southern Coast" },
+      { "icon": "fa-solid fa-clock", "text": "Day Trip" },
+      { "icon": "fa-solid fa-fish", "text": "Snorkelling" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "trincomalee",
+    "category": "coastal",
+    "image": "assets/images/destinations/trincomalee.webp",
+    "alt": "Trincomalee",
+    "categoryLabel": "Coastal",
+    "title": "Trincomalee",
+    "description": "Home to the stunning Pigeon Island and Marble Beach — Sri Lanka's east coast gem for diving, whale watching and pristine untouched beaches.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Eastern Province" },
+      { "icon": "fa-solid fa-clock", "text": "Multi-day" },
+      { "icon": "fa-solid fa-water", "text": "Diving" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "down-south",
+    "category": "coastal",
+    "image": "assets/images/destinations/down-south-coast.webp",
+    "alt": "Down South",
+    "categoryLabel": "Coastal",
+    "title": "Down South Coast",
+    "description": "The full sweep of Sri Lanka's southern coastline — a paradise of surf beaches, palm-fringed coves, colonial forts and legendary surf breaks.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Southern Province" },
+      { "icon": "fa-solid fa-clock", "text": "Multi-day Tour" },
+      { "icon": "fa-solid fa-umbrella-beach", "text": "Beach" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "nuwara-eliya",
+    "category": "nature",
+    "image": "assets/images/destinations/nuwara-eliya.webp",
+    "alt": "Nuwara Eliya",
+    "categoryLabel": "Nature",
+    "title": "Nuwara Eliya",
+    "description": "Sri Lanka's \"Little England\" at 1,868m above sea level — emerald tea estates, cool mountain air, waterfalls and charming colonial architecture.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Hill Country" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day" },
+      { "icon": "fa-solid fa-mug-hot", "text": "Tea Experience" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "ravana-falls",
+    "category": "nature",
+    "image": "assets/images/destinations/rawana-falls.webp",
+    "alt": "Ravana Falls",
+    "categoryLabel": "Nature",
+    "title": "Ravana Falls, Ella",
+    "description": "Sri Lanka's widest and most iconic waterfall, steeped in Ramayana legend. Set amid spectacular mountain scenery near the beautiful hill-station of Ella.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Ella" },
+      { "icon": "fa-solid fa-clock", "text": "Half Day" },
+      { "icon": "fa-solid fa-water", "text": "Waterfall" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "horton-plains",
+    "category": "nature",
+    "image": "assets/images/destinations/horton-plains.webp",
+    "alt": "Horton Plains",
+    "categoryLabel": "Nature",
+    "title": "Horton Plains",
+    "description": "A misty highland plateau with World's End — a sheer 870m cliff with breathtaking views — plus Baker's Falls and rare montane wildlife including the sambar deer.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Central Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day Trek" },
+      { "icon": "fa-solid fa-mountain", "text": "Trekking" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "peradeniya",
+    "category": "nature",
+    "image": "assets/images/destinations/peradeniya-botanical-garden.webp",
+    "alt": "Botanical Gardens",
+    "categoryLabel": "Nature",
+    "title": "Peradeniya Botanical Gardens",
+    "description": "Sri Lanka's most beautiful botanical garden near Kandy — 147 acres of rare orchids, enormous Java fig trees, a bamboo avenue and a stunning riverside setting.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Peradeniya, Kandy" },
+      { "icon": "fa-solid fa-clock", "text": "Half Day" },
+      { "icon": "fa-solid fa-seedling", "text": "Gardens" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "colombo",
+    "category": "city",
+    "image": "assets/images/destinations/colombo.webp",
+    "alt": "Colombo",
+    "categoryLabel": "City",
+    "title": "Colombo",
+    "description": "Sri Lanka's vibrant capital — a dynamic blend of colonial architecture, world-class restaurants, luxury malls, bustling markets and a scenic seaside promenade.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Western Province" },
+      { "icon": "fa-solid fa-clock", "text": "Half / Full Day" },
+      { "icon": "fa-solid fa-city", "text": "Urban" }
+    ],
+    "linkText": "Plan a Visit"
+  },
+  {
+    "id": "kandy-city",
+    "category": "city",
+    "image": "assets/images/destinations/kandy.webp",
+    "alt": "Kandy",
+    "categoryLabel": "City",
+    "title": "Kandy",
+    "description": "The cultural capital of Sri Lanka — the last royal city of the kings, set around a beautiful lake and surrounded by misty hills and world-class botanical gardens.",
+    "facts": [
+      { "icon": "fa-solid fa-location-dot", "text": "Central Province" },
+      { "icon": "fa-solid fa-clock", "text": "Full Day" },
+      { "icon": "fa-solid fa-star", "text": "UNESCO" }
+    ],
+    "linkText": "Plan a Visit"
+  }
+]
