@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page - Highest Priority -->
+  <url>
+    <loc>https://www.graceleisuretours.com/</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://www.graceleisuretours.com/about</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Destinations Page - High Priority for Local SEO -->
+  <url>
+    <loc>https://www.graceleisuretours.com/destinations</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Packages Page - High Priority for Conversion -->
+  <url>
+    <loc>https://www.graceleisuretours.com/packages</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Vehicles Page -->
+  <url>
+    <loc>https://www.graceleisuretours.com/vehicles</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Reviews Page - High Priority for Trust Signals -->
+  <url>
+    <loc>https://www.graceleisuretours.com/reviews</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.graceleisuretours.com/contact</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+</urlset>

@@ -1,0 +1,38 @@
+# Grace Leisure Tours - SEO Robots Configuration
+# Last Updated: 2025-06-11
+
+# Allow all bots to crawl and index the site
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /assets/images/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/data/
+
+# Disallow private/admin areas (if any exist)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.tmp$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Specific crawler directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+User-agent: Bingbot
+Allow: /
+
+# Standard crawl delay
+Crawl-delay: 1
+
+# Sitemap reference
+Sitemap: https://www.graceleisuretours.com/sitemap.xml
+
+# Request indexed pages be cached
+Cache-control: public, max-age=86400
